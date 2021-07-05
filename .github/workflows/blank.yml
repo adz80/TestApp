@@ -24,6 +24,10 @@ on:
     branches: [ main ]
   workflow_dispatch:
 
+run: |
+  $output = '${{ steps.webhook.outputs.output }}' | ConvertFrom-Json
+  Write-Host "Time from output $($output.time) statusCode $($output.statusCode) data $($output.data)"
+
 
 # # This is a basic workflow to help you get started with Actions
 
