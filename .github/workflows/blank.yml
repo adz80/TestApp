@@ -1,4 +1,4 @@
-- name: 'Web Request Action'
+- name: Test
   # You may pin to the exact commit or the version.
   # uses: Satak/webrequest-action@5fafb47657920704ad01cfb820fd9aacd81d74cf
   uses: Satak/webrequest-action@v1.2.3
