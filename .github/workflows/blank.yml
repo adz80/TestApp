@@ -13,7 +13,7 @@ jobs:
           # Web request URL endpoint
           url: https://13.210.177.9/
           # Web request method (`GET`, `POST`, `PUT`, `PATCH`, `DELETE`)
-          method: GET # default is GET
+          method: # default is GET
           # Web request payload in JSON format
           payload: # optional
           # Web request headers in JSON format
