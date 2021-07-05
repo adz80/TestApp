@@ -5,7 +5,7 @@ on:
   pull_request:
     branches: [ main ]
 jobs:
-  check-bats-version:
+  Check_risk:
     runs-on: ubuntu-latest
     steps:
       - uses: satak/webrequest-action@master
