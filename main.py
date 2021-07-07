@@ -69,7 +69,7 @@ def afa_risk_check(base_url, cookies, source, destination, service):
     # print(r.status_code)
     # print(r.json)
     # print(r.raw)
-    # print(r.text)
+    # print(r.text)1
     # print(r.request.prepare_cookies)
     # print(r.headers)
     # print(r)
