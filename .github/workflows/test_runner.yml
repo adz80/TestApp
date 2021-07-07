@@ -1,5 +1,9 @@
-on: pull_request
-
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+    
 jobs:
   example_comment_pr:
     runs-on: ubuntu-latest
